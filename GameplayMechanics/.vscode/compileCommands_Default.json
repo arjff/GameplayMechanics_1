@@ -1,0 +1,57 @@
+[
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanics.Build.cs",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanics.cpp",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanics.h",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsCharacter.cpp",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsCharacter.h",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsGameMode.cpp",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsGameMode.h",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsHUD.cpp",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsHUD.h",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsProjectile.cpp",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    },
+    {
+        "file": "D:\\\\Downloads\\\\Unreal Engine C++\\\\Projects\\\\GameplayMechanics\\\\Source\\\\GameplayMechanics\\\\GameplayMechanicsProjectile.h",
+        "command": "\"D:\\Visual Studio C#\\VC\\Tools\\MSVC\\14.29.30037\\bin\\HostX64\\x64\\cl.exe\" @\"D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\.vscode\\compileCommands_Default\\GameplayMechanics.210.rsp\"",
+        "directory": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Source"
+    }
+]

@@ -1,0 +1,123 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "GameplayMechanics (Debug)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanics Win64 Debug Build",
+            "program": "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\Binaries\\Win64\\UE4-Win64-Debug.exe",
+            "args": [],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanics (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanics Win64 DebugGame Build",
+            "program": "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\Binaries\\Win64\\UE4-Win64-DebugGame.exe",
+            "args": [],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanics (Development)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanics Win64 Development Build",
+            "program": "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\Binaries\\Win64\\UE4.exe",
+            "args": [],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanics (Shipping)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanics Win64 Shipping Build",
+            "program": "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\Binaries\\Win64\\UE4-Win64-Shipping.exe",
+            "args": [],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanics (Test)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanics Win64 Test Build",
+            "program": "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\Binaries\\Win64\\UE4-Win64-Test.exe",
+            "args": [],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanicsEditor (Debug)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanicsEditor Win64 Debug Build",
+            "program": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+            "args": [
+                "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\GameplayMechanics.uproject"
+            ],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanicsEditor (DebugGame)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanicsEditor Win64 DebugGame Build",
+            "program": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor-Win64-DebugGame.exe",
+            "args": [
+                "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\GameplayMechanics.uproject"
+            ],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "GameplayMechanicsEditor (Development)",
+            "request": "launch",
+            "preLaunchTask": "GameplayMechanicsEditor Win64 Development Build",
+            "program": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+            "args": [
+                "D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\GameplayMechanics.uproject"
+            ],
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27",
+            "stopAtEntry": false,
+            "type": "cppvsdbg",
+            "visualizerFile": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis",
+            "console": "externalTerminal"
+        },
+        {
+            "name": "Generate Project Files",
+            "type": "clr",
+            "request": "launch",
+            "program": "D:\\program files\\Epic Games\\UE_4.27\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+            "console": "externalTerminal",
+            "args": [
+                "-projectfiles",
+                "-vscode",
+                "-project=D:\\Downloads\\Unreal Engine C++\\Projects\\GameplayMechanics\\GameplayMechanics.uproject",
+                "-game",
+                "-engine"
+            ],
+            "internalConsoleOptions": "openOnSessionStart",
+            "cwd": "D:\\program files\\Epic Games\\UE_4.27"
+        }
+    ]
+}
