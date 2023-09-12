@@ -45,7 +45,7 @@ public:
 	// GravGun
 	virtual void Tick(float DeltaTime) override;
 	void TickCharge(float DeltaTime);
-	bool IsCharging = false;
+	
 
 protected:
 	virtual void BeginPlay();
@@ -83,7 +83,9 @@ protected:
 	float DashSpeed = 9000.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool IsDashing = false;
+	bool bIsDashing = false;
+
+
 
 	UFUNCTION(BlueprintPure)
 	float GetDelayDuration();
@@ -94,7 +96,10 @@ protected:
 	void SetGrabbedObject(UPrimitiveComponent* ObjectToGrab);
 
 	UPROPERTY()
-	UPrimitiveComponent* GrabbedObject;
+	UPrimitiveComponent* GrabbedObject;	
+	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GravGun)
+	bool bIsCharging = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = GravGun)
 	float FiringForce = 2000.f; // Firing Force
@@ -120,7 +125,7 @@ protected:
 	UFUNCTION(BlueprintPure)
 	float GetFuelPercent();
 
-	bool isSpacebarDown;
+	bool bIsSpacebarDown;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Jetpack)
 	float LaunchSpeed = 420.f;

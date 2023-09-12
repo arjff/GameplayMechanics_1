@@ -111,11 +111,11 @@ void AGameplayMechanicsCharacter::Tick(float DeltaTime) // TickEvent
 	TickCharge(DeltaTime); // for GravGun
 
 	// Jetpack
-	if(isSpacebarDown)
+	if(bIsSpacebarDown)
 	{
 		Jetpack(DeltaTime);
 	}
-	else if(!isSpacebarDown)
+	else if(!bIsSpacebarDown)
 	{
 		CurrentFuel = FMath::Clamp((CurrentFuel + (DeltaTime/FuelRechargeRate)),0.f,MaxFuel);
 	}
@@ -126,7 +126,7 @@ void AGameplayMechanicsCharacter::Dashing() // Dashing
 	// Allow dashing only when Player is moving
 	if(GetCharacterMovement()->Velocity != FVector::ZeroVector)
 	{
-		IsDashing = true;
+		bIsDashing = true;
 		// Get last movement input for dash direction
 		const FVector DashDirection = GetCharacterMovement()->GetLastInputVector();
 		LaunchCharacter(DashDirection*DashSpeed, true, true);
@@ -205,7 +205,7 @@ void AGameplayMechanicsCharacter::SetGrabbedObject(UPrimitiveComponent* ObjectTo
 
 void AGameplayMechanicsCharacter::TickCharge(float DeltaTime) // GravGun Add-Ons
 {
-	if(IsCharging)
+	if(bIsCharging)
 	{
 		FiringCharge = FMath::Clamp((FiringCharge + (DeltaTime/FiringChargeTime)), 0.f,1.f);
 	}
@@ -213,13 +213,13 @@ void AGameplayMechanicsCharacter::TickCharge(float DeltaTime) // GravGun Add-Ons
 
 void AGameplayMechanicsCharacter::StartCharge()
 {
-	IsCharging = true;
+	bIsCharging = true;
 	FiringCharge = 0;
 }
 
 void AGameplayMechanicsCharacter::EndCharge()
 {
-	IsCharging = false;
+	bIsCharging = false;
 	FiringForce = FMath::Lerp(MinFiringForce, MaxFiringForce, FiringCharge);
 }
 
@@ -227,7 +227,7 @@ void AGameplayMechanicsCharacter::Jetpack(float DeltaTime) // Jetpack
 {
 	if(CurrentFuel>0)
 	{
-		if(isSpacebarDown)
+		if(bIsSpacebarDown)
 		{
 			GetMovementComponent()->Velocity.Z = LaunchSpeed;
 			GetCharacterMovement()->SetMovementMode(MOVE_Falling);
@@ -250,12 +250,12 @@ float AGameplayMechanicsCharacter::GetFuelPercent() // Fuel Percentage for HUD
 
 void AGameplayMechanicsCharacter::Jump()
 {
-	isSpacebarDown = true;
+	bIsSpacebarDown = true;
 }
 
 void AGameplayMechanicsCharacter::StopJumping()
 {
-	isSpacebarDown = false;
+	bIsSpacebarDown = false;
 	GetCharacterMovement()->AirControl = 0.05f;
 }
 
